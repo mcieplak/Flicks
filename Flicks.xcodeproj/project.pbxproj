@@ -13,6 +13,8 @@
 		D89692451E3705C400044C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89692431E3705C400044C35 /* Main.storyboard */; };
 		D89692471E3705C400044C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89692461E3705C400044C35 /* Assets.xcassets */; };
 		D896924A1E3705C400044C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89692481E3705C400044C35 /* LaunchScreen.storyboard */; };
+		D896925B1E37138900044C35 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D896925A1E37138900044C35 /* MovieCell.m */; };
+		D89855A21E3883CD008180A8 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = D89855A11E3883CD008180A8 /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		D89692461E3705C400044C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89692491E3705C400044C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D896924B1E3705C400044C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89692591E37138900044C35 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		D896925A1E37138900044C35 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		D89855A01E3883CD008180A8 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		D89855A11E3883CD008180A8 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				D89692481E3705C400044C35 /* LaunchScreen.storyboard */,
 				D896924B1E3705C400044C35 /* Info.plist */,
 				D896923A1E3705C400044C35 /* Supporting Files */,
+				D89692591E37138900044C35 /* MovieCell.h */,
+				D896925A1E37138900044C35 /* MovieCell.m */,
+				D89855A01E3883CD008180A8 /* Movie.h */,
+				D89855A11E3883CD008180A8 /* Movie.m */,
 			);
 			path = Flicks;
 			sourceTree = "<group>";
@@ -152,6 +162,8 @@
 			files = (
 				D89692421E3705C400044C35 /* ViewController.m in Sources */,
 				D896923F1E3705C400044C35 /* AppDelegate.m in Sources */,
+				D89855A21E3883CD008180A8 /* Movie.m in Sources */,
+				D896925B1E37138900044C35 /* MovieCell.m in Sources */,
 				D896923C1E3705C400044C35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +321,7 @@
 				D89692501E3705C400044C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
